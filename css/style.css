@@ -54,12 +54,12 @@ nav ul li a:hover {
 }
 
 .checkbtn {
-  font-size: 30px;
   color: #fff;
+  cursor: pointer;
+  font-size: 30px;
   float: right;
   line-height: 80px;
   margin-right: 40px;
-  cursor: pointer;
   display: none;
 }
 
@@ -101,7 +101,7 @@ header a .fab {
   border: none !important;
 }
 
-.precio {
+.precio, .cuotas {
   padding: 20px;
   color: #000000;
   font-size: 22px;
@@ -109,19 +109,16 @@ header a .fab {
 }
 
 .cuotas {
-  padding-bottom: 20px;
-  color: #000000;
   font-size: 18px;
-  text-align: center;
 }
 
 .buttonc {
+  color: #fff;
+  cursor: pointer;
   border: none;
   padding: 12px;
-  color: white;
-  background-color: #000;
+  background-color: #000000;
   text-align: center;
-  cursor: pointer;
   width: 100%;
   font-size: 18px;
 }
@@ -272,17 +269,16 @@ header a .fab {
   color: #9e9d9d;
 }
 
-.olvide {
+.olvide, .olvide1 {
   color: #000090;
 }
 
-.olvide:hover {
+.olvide:hover, .olvide1:hover {
   color: #fff;
   cursor: pointer;
 }
 
 .olvide1 {
-  color: #000090;
   font-size: 20px;
   font-weight: 700 !important;
 }
